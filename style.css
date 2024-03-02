@@ -1,0 +1,1109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*.page{
+height: 100vh;
+width: 100%;
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.page1{
+height: 100vh;
+width: 100%;
+background-image: url(https://dev.plasticbionic.com/wp-content/uploads/36DAYSOFTYPE_Typography_Illustration_2023_19.jpg);
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}   
+
+.page1 .text h2{
+      font-size: 10vw;
+      color: white;
+      font-family: lato;
+      font-weight: 100;
+
+}
+.page1 .text h3{
+    font-size: 10vw;
+    color: white;
+    font-family: lato;
+    font-weight: 100;
+
+}
+.container{
+height: 400px;
+width: 300px;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 7vw;
+    font-family: lato;
+  z-index: 1;
+}
+.container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}*/
+
+.page {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    scale: 0.5;
+}
+
+.page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page1-content {
+    height: 100%;
+    width: 100%;
+    background: #0000000b;
+    position: absolute;
+    top: 0;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+#nav-part-1 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav img {
+    height: 50px;
+    width: 100px;
+    object-fit: cover;
+}
+
+#nav-part-2 {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+
+}
+
+#nav-part-2 h4 {
+    font-size: 1.3vw;
+    color: white;
+    font-family: lato;
+}
+
+#nav-part-2 button {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 1.4vw;
+    border: none;
+    transition: all ease 0.5s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-part-2 button i {
+    color: black;
+    font-size: 1.3vw;
+    opacity: 0;
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 5px;
+    scale: 0;
+    transition: all ease 0.5s;
+}
+
+#nav-part-2 button:hover i {
+    opacity: 1;
+    scale: 1;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text h3 {
+    font-size: 1.3vw;
+    color: white;
+    font-family: lato;
+    font-weight: 800;
+    position: relative;
+}
+
+.text h3:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color: white;
+    width: 0%;
+    transition: all ease 0.5s;
+}
+
+.text h3:hover::after {
+    width: 100%;
+}
+
+.heading {
+    overflow: hidden;
+}
+
+.page1-content h1 {
+    padding: 20px 40px;
+    font-size: 9vw;
+    color: white;
+    font-family: lato;
+    font-weight: 600;
+}
+
+#btn {
+    width: 23%;
+    height: 12%;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin: 20px 50px;
+    transition: all ease 0.5s;
+    border: none;
+}
+
+#btn h5 {
+    font-size: 1.2vw;
+    color: black;
+    font-family: lato;
+    font-weight: 600;
+}
+
+#btn i {
+
+    font-size: 2.2vw;
+    color: rgb(12, 12, 12);
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.bottom {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.bottom h2 {
+    font-size: 2vw;
+    color: white;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.bottom-part1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom-part1 {
+    font-family: lato;
+    font-size: 1.3vw;
+    color: white;
+}
+
+
+.page2 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.page2 h2 {
+    font-size: 4vw;
+    font-family: lato;
+    font-weight: 500;
+    color: black;
+}
+
+.page2 .image-container {
+    height: 250px;
+    width: 350px;
+    background-image: url(https://www.datocms-assets.com/105899/1700042918-home-thumb.png?fit=max&fm=webp&h=3000&w=2000);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page3 h5 {
+    color: black;
+    font-size: 1.2vw;
+    font-family: lato;
+    font-weight: 600;
+    margin: 0px 30px;
+}
+
+.text-container {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-bottom: none;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.sliding-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.letter-text {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    padding: 0px 20px;
+}
+
+.letter-text h5 {
+    font-size: 4vw;
+    color: black;
+}
+
+.letter-text h3 {
+    font-size: 3vw;
+    color: black;
+    font-family: lato;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.icons #icon-1 {
+    font-size: 3vw;
+    color: black;
+}
+
+.icons #icon-2 {
+    font-size: 3vw;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    opacity: 0;
+}
+
+.bot {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+}
+
+.page4 {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.page4 .left {
+    height: 100%;
+    width: 50%;
+    padding: 10px 50px;
+}
+
+.inner-image {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+.inner-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    top: 0%;
+    z-index: -1;
+}
+
+
+#first-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 999;
+
+}
+
+#second-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.page4 .right {
+    height: 100%;
+    width: 50%;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 100px;
+}
+
+.first-text h5 {
+    font-size: 1.1vw;
+    color: black;
+    font-family: lato;
+
+}
+
+.text-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-text h2 {
+    font-size: 4vw;
+    color: rgba(0, 0, 0, 0.359);
+    font-family: lato;
+    font-weight: 600;
+}
+
+.line {
+    height: 3.4px;
+    width: 48%;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.inner-line {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(236, 15, 15);
+
+}
+
+.second-text {
+    height: 180px;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 150px 0px;
+}
+
+.second-text h4 {
+    font-size: 1.2vw;
+    color: black;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.second-text p {
+    font-size: 1.5vw;
+    color: black;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.page-5 {
+    height: 100vh;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.cont-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.datocms-assets.com/105899/1699610679-ep-residental-hero-copy.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cont-image h2 {
+    font-size: 3vw;
+    color: white;
+    font-weight: 600;
+    font-family: lato;
+}
+
+.cont-image-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    position: absolute;
+    top: 80%;
+}
+
+
+#btn-1 {
+    padding: 20px 30px;
+    height: 100px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    border-radius: 50px;
+
+}
+
+#btn-1 h5 {
+    color: black;
+    font-size: 1.5vw;
+    font-weight: lato;
+    font-weight: 800;
+
+}
+
+#btn-1 i {
+    color: black;
+    font-size: 2vw;
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.page-6 {
+    height: 50vh;
+    width: 100%;
+    padding: 100px 25vw;
+}
+
+.page-6 h2 {
+    font-size: 3vw;
+    font-family: lato;
+    font-weight: 600;
+    margin: 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.page-7 {
+    height: 100vh;
+    width: 100;
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+#part-1 {
+    height: 80%;
+    width: 33%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+#part-1 i {
+    font-size: 2vw;
+    color: black;
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    scale: 0;
+
+}
+
+#part-1 img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#part-1:hover img {
+    scale: 1.04;
+}
+
+#part-2 {
+    height: 80%;
+    width: 33%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color: #F5F5F5;
+    transition: all ease 0.5s;
+}
+
+#part-2 img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: all ease 0.5s;
+
+}
+
+#part-2 i {
+    font-size: 2vw;
+    scale: 0;
+    color: black;
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#part-2:hover img {
+    scale: 1.04;
+}
+
+#part-3 {
+    height: 80%;
+    width: 33%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #F5F5F5;
+    transition: all ease 0.5s;
+}
+
+#part-3 img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#part-3 i {
+    font-size: 2vw;
+    color: black;
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    scale: 0;
+}
+
+#part-3:hover img {
+    scale: 1.04;
+}
+
+.page-8 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    gap: 5vw;
+}
+
+.page-8 h5 {
+    font-size: 2vw;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 50px 50px;
+}
+
+.page-8 h2 {
+    font-size: 4vw;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.page-9 {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.box-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    padding: 10px 20px;
+
+}
+
+.page-9-box1 {
+    height: 430px;
+    width: 550px;
+    background-image: url(https://www.datocms-assets.com/105899/1700061367-eo-partner-copy.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.page-9-box1 img {
+    height: 80px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 72%;
+    left: 12%;
+
+}
+
+.page-9-box2 {
+    height: 430px;
+    width: 550px;
+    background-image: url(https://www.datocms-assets.com/105899/1700041168-zaptec-partner-thumb-copy.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.page-9-box2 img {
+    height: 80px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 72%;
+    left: 12%;
+
+}
+
+.page-9-box3 {
+    height: 430px;
+    width: 550px;
+    background-image: url(https://www.datocms-assets.com/105899/1700041168-zaptec-partner-thumb-copy.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.page-9-box3 img {
+    height: 80px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 72%;
+    left: 12%;
+}
+
+.text-div {
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.text-part1 {
+    height: 100%;
+    width: 50%;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.drag-line {
+    height: 2px;
+    width: 150px;
+    background-color: rgb(23, 23, 24);
+}
+
+.text-part1 h4 {
+    color: black;
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.text-part2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px 30px;
+}
+
+.text-part2 h3 {
+    color: rgba(14, 14, 15, 0.296);
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.6vw;
+}
+
+.text-part2 h4 {
+    color: black;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+.page-10 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(yellow, yellow, #F6D19F);
+    padding: 10px 30px;
+    position: relative;
+}
+
+.page-10 h1 {
+    font-size: 8vw;
+    font-family: lato;
+    font-weight: 500;
+}
+
+.page-10 h4 {
+    color: black;
+    font-family: lato;
+    font-weight: 900;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 76%;
+
+}
+
+.page-10 h3 {
+    color: rgba(0, 0, 0, 0.216);
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.6vw;
+    position: absolute;
+    top: 82%;
+}
+
+.cont {
+    margin: 20px 30px;
+    padding: 18px 50px;
+    border-radius: 50px;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.cont h5 {
+    color: black;
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+.icons h4 {
+    font-size: 1.5vw;
+    color: rgb(27, 24, 24);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+
+}
+
+.icons i {
+    color: rgb(1, 8, 1);
+    font-size: 1.8vw;
+}
+
+.last-page {
+    height: 100vh;
+    width: 100%;
+
+}
+
+#last-nav {
+    height: 100px;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part-1-last {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(116, 8, 247)(240, 227, 227);
+}
+
+.part-1-last img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.part-2-last {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.part-2-last h3 {
+    color: rgb(13, 13, 13);
+    font-family: lato;
+    font-weight: 400;
+    font-size: 2vw;
+    position: relative;
+}
+
+.part-2-last h3::after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: rgb(23, 23, 23);
+    position: absolute;
+    bottom: -10%;
+    left: 0%;
+    transition: all ease 0.5s;
+}
+
+h3:hover::after {
+    width: 70%;
+
+}
+
+.part-2-last .number {
+    padding: 20px;
+    width: fit-content;
+    font-size: 25px;
+    position: relative;
+}
+
+.number h4 {
+    color: rgb(9, 9, 9);
+    font-family: lato;
+    font-weight: 500;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.number h4::after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: rgb(16, 16, 16);
+    position: absolute;
+    bottom: -10%;
+    left: 0%;
+    transition: all ease 0.5s;
+}
+
+h4:hover::after {
+    width: 100%;
+}
+
+.footer {
+    height: 700px;
+    width: 100%;
+    display: flex;
+
+}
+
+.footer-part1 {
+    height: 100%;
+    width: 50%;
+    padding: 300px 50px;
+
+
+}
+
+.footer-part1 h2 {
+    font-size: 1.4vw;
+    color: black;
+    font-family: lato;
+    font-weight: 400;
+}
+
+.btn-client {
+    background-color: black;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 50px;
+    width: fit-content;
+    font-family: lato;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin: 50px 0px;
+}
+
+.footer-part2 {
+    height: 100%;
+    width: 50%;
+    padding: 300px 50px;
+    display: flex;
+
+}
+
+.footer-part2-1 {
+    height: 500px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-part2-1 h2 {
+    font-size: 1.5vw;
+    font-family: lato;
+    font-weight: 600;
+    color: black;
+}
+
+.footer-part2-1 .next {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-part2-1 .next h3 {
+    color: rgba(0, 0, 0, 0.382);
+    font-size: 1.4vw;
+    font-weight: 700;
+    font-family: lato;
+
+}
+
+.last-1 {
+    height: 100px;
+    width: 100%;
+    padding: -10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-1 h3 {
+    font-family: lato;
+    color: rgba(0, 0, 0, 0.357);
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+.last-12 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.last-12 h4 {
+    color: rgba(0, 0, 0, 0.324);
+    font-family: lato;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
